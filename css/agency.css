@@ -345,7 +345,22 @@ section h3.section-subheading {
 
 .bg-1 {
     background: #f1f1f1;
-    height: 5px;
+    height: 10px;
+}
+
+.bg-2 {
+    background: #f1f1f1;
+    height: 10px;
+}
+
+.bg-3 {
+    background: #f1f1f1;
+    height: 10px;
+}
+
+.bg-4 {
+    background: #f1f1f1;
+    height: 10px;
 }
 
 @media(min-width:768px) {
@@ -354,12 +369,12 @@ section h3.section-subheading {
 }
 
 section {
-  color: #f1f1f1;
   min-height: 400px;
   height: auto !important;
   height: 100%;
   padding: 100px 0;
 }
+
 .bg-1 {
     background: url(../img/IMG_1297.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
