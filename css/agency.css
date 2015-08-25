@@ -350,7 +350,7 @@ section {
   height: 100%;
   padding: 100px 0;
 }
-
+@media(min-width:768px) {
 .bg-1 {
     background: url(../img/IMG_1297.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -383,6 +383,7 @@ section {
     -o-background-size: cover;
     background-size: cover;
 
+}
 }
 
 @media(min-width:768px) {
