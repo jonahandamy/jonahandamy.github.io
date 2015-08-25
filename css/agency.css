@@ -350,6 +350,12 @@ section {
   height: 100%;
   padding: 100px 0;
 }
+
+.bg-1 {
+    background: #000;
+    height: 5px;
+}
+
 @media(min-width:768px) {
 .bg-1 {
     background: url(../img/IMG_1297.jpg) no-repeat center center fixed; 
