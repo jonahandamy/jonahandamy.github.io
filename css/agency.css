@@ -343,20 +343,23 @@ section h3.section-subheading {
     height:10px;
 }
 
+.bg-1 {
+    background: #f1f1f1;
+    height: 5px;
+}
+
+@media(min-width:768px) {
+.divider {
+    height:10px;
+}
+
 section {
-  color: #000;
+  color: #f1f1f1;
   min-height: 400px;
   height: auto !important;
   height: 100%;
   padding: 100px 0;
 }
-
-.bg-1 {
-    background: #000;
-    height: 5px;
-}
-
-@media(min-width:768px) {
 .bg-1 {
     background: url(../img/IMG_1297.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
