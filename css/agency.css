@@ -61,7 +61,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #f1f1f1;
 }
 
 .bg-darkest-gray {
@@ -426,7 +426,7 @@ section {
 }
 
 #engagement {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
 }
 
 #wedding h2.news {
@@ -455,19 +455,19 @@ section {
     text-transform: none;
 }
 
-#give .portfolio-item {
+.portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#give .portfolio-item .portfolio-link {
+.portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#give .portfolio-item .portfolio-link .portfolio-hover {
+.portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -478,11 +478,11 @@ section {
     transition: all ease .5s;
 }
 
-#give .portfolio-item .portfolio-link .portfolio-hover:hover {
+.portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
-#give .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -493,16 +493,16 @@ section {
     color: #fff;
 }
 
-#give .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
-#give .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#give .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
-#give .portfolio-item .portfolio-caption {
+.portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -510,19 +510,19 @@ section {
     background-color: #fff;
 }
 
-#give .portfolio-item .portfolio-caption h4 {
+.portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#give .portfolio-item .portfolio-caption p {
+.portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -762,15 +762,23 @@ aside.clients img {
     margin: 50px auto;
 }
 
+
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #ffffff;
+}
+
+section#contact h3.section-subheading {
+    color: #ffffff;
+}
+
+section#contact p.a {
+    color: #8229a1;
 }
 
 section#contact .form-group {
