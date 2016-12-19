@@ -656,8 +656,56 @@
                         <p class="item-intro text-muted">Have a song you want to hear at our reception? Let us know below. (But we can't make any promises!)</p>
                     </div>
                 </div>
-                <div class="row">
-                    <h2 style = "color:#8229a1">Coming soon</h2>
+
+                <form id="gform" method="POST" class="pure-form pure-form-stacked"
+ action="https://script.google.com/macros/s/AKfycbxrv8fTFwdazgvbGaqjFwZsPpxxEYdB5-OKBgJ6rDu9t4yqi0w/exec">
+    <!-- change the form action to your script url -->
+
+                <div class="form-group-row">    
+                    <fieldset class="pure-group">
+                    <label for="name" class="col-sm-2 col-form-label">Your Name</label>
+                    <div class="col-sm-6">  
+                        <input id="name" name="name" class="form-control" placeholder="What your Mom calls you"/>
+                    </div>
+                    </fieldset>
+                </div>
+
+                <div class="form-group-row">
+                    <fieldset class="pure-group">
+                    <label for="email" class="col-sm-2 col-form-label">Email Address</label>
+                    <div class="col-sm-6">
+                        <input id="email" name="email" type="email" class="form-control" value=""
+                      required placeholder="your.name@email.com"/>
+                        <span id="email-invalid" style="visibility:hidden">
+                        Must be a valid email address</span>
+                    </div>
+                    </fieldset>
+                </div>
+
+                <div class="form-group-row">
+                    <fieldset class="pure-group">
+                      <label for="song" class="col-sm-2 col-form-label">Song Title</label>
+                    <div class="col-sm-6">  
+                      <input id="song" name="song" class="form-control"
+                      placeholder="e.g. Want to want me"></input>
+                    </div>
+                    </fieldset>
+                </div>
+                <div class="form-group-row">
+                    <fieldset class="pure-group">
+                      <label for="artist" class="col-sm-2 col-form-label">Artist</label>
+                    <div class="col-sm-6"> 
+                      <input id="artist" name="artist" class="form-control" placeholder="e.g. Jason Derulo"/>
+                    </div>
+                    </fieldset>
+                </div>
+                <div class="form-group-row">
+                    <button class="button-success btn btn-primary">Submit</button>
+                </div>
+                </form>
+
+                <div style="display:none;" id="thankyou_message">
+                    <h4>Thanks for submitting a song request!<br/>We can't wait to dance with you at our wedding!</h4>
                 </div>
             </div>
         </div>
@@ -665,6 +713,9 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+<!--Ajax for form -->
+    <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
